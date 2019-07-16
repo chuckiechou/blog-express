@@ -18,7 +18,7 @@ if (env === 'dev') {
     }
 }
 
-if (env === 'production') {
+if (env === 'prod') {
     MYSQL_CONF = {
         host: "127.0.0.1",
         user: "root",
