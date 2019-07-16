@@ -23,7 +23,6 @@ const getDetail = (id) => {
 }
 
 const newBlog = (blogData = {}) => {
-    console.log(typeof xss)
     const title = xss(blogData.title);
     const content = blogData.content;
     const author = blogData.author;

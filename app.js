@@ -36,7 +36,7 @@ app.use(session({
   name: 'sessionid',
   resave: true,
   saveUninitialized: true,
-  store: sessionStore
+  store: sessionStore 
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
